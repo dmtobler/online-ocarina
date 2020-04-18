@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Hylia";
+    src: url("../assets/fonts/HyliaSerifBeta-Regular.otf");
+}
+
+@font-face {
+    font-family: "Charlemagne";
+    src: url("../assets/fonts/Charlemagne.ttf");
+}
+
+html {
+    background-image: url("../assets/img/yves-felix-triforce.gif");
+    background-size: cover;
+    height: 100vh;
+    z-index: 0;
+    background-repeat: no-repeat;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: "Hylia", sans-serif;
+    color: #d8b943;
+}
+
+audio {
+    display: none;
+}
+
+h1 {
+    font-size: 6em;
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: "Charlemagne", serif;
+    margin-top: 5vh;
+    margin-bottom: 0;
+}
+
+#ocarinaPic {
+    transform: rotate(45deg);
+    position: relative;
+    width: 500px;
+}
+
+#keyIconContainer {
+    position: relative;
+    top: -50px;
+    font-size: 7em;
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
