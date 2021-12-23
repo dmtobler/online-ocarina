@@ -125,7 +125,11 @@ $(document).ready(function () {
 
         // Song of Healing
         // ← → ↓ ← → ↓
-        {name: "Song of Healing", seq: [37, 39, 40, 37, 39, 40], song: "assets/audio/song-of-healing.mp3"}
+        {name: "Song of Healing", seq: [37, 39, 40, 37, 39, 40], song: "assets/audio/song-of-healing.mp3"},
+
+        // Inverted Song of Time
+        // ↓ A → ↓ A →
+        {name: "Inverted Song of Time", seq: [40, 65, 39, 40, 65, 39], song: "assets/audio/inverted-song-of-time.mp3"}
     ];
 
 
