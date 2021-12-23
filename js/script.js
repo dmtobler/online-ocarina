@@ -129,7 +129,15 @@ $(document).ready(function () {
 
         // Inverted Song of Time
         // ↓ A → ↓ A →
-        {name: "Inverted Song of Time", seq: [40, 65, 39, 40, 65, 39], song: "assets/audio/inverted-song-of-time.mp3"}
+        {name: "Inverted Song of Time", seq: [40, 65, 39, 40, 65, 39], song: "assets/audio/inverted-song-of-time.mp3"},
+
+        // Song of Double Time
+        // → → A A ↓ ↓
+        {name: "Song of Double Time", seq: [39, 39, 65, 65, 40, 40], song: "assets/audio/song-of-double-time.mp3"},
+
+        // Sonata of Awakening
+        // ↑ ← ↑ ← A → A
+        {name: "Sonata of Awakening", seq: [38, 37, 38, 37, 65, 39, 65], song: "assets/audio/sonata-of-awakening.mp3"}
     ];
 
 
