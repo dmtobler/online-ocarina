@@ -145,7 +145,19 @@ $(document).ready(function () {
 
         // Goron Lullaby
         // A → ← A → ← → A
-        {name: "Goron Lullaby", seq: [65, 39, 37, 65, 39, 37, 39, 65], song: "assets/audio/goron-lullaby.mp3"}
+        {name: "Goron Lullaby", seq: [65, 39, 37, 65, 39, 37, 39, 65], song: "assets/audio/goron-lullaby.mp3"},
+
+        // New Wave Bossa Nova
+        // ← ↑ ← → ↓ ← → 
+        {name: "New Wave Bossa Nova", seq: [37, 38, 37, 39, 40, 37, 39], song: "assets/audio/new-wave-bossa-nova.mp3"},
+
+        // Elegy of Emptiness
+        // → ← → ↓ → ↑ ←
+        {name: "Elegy of Emptiness", seq: [39, 37, 39, 40, 39, 38, 37], song: "assets/audio/elegy-of-emptiness"},
+
+        // Oath to Order
+        // → ↓ A ↓ → ↑
+        {name: "Oath to Order", seq: [39, 40, 65, 40, 39, 38], song: "assets/audio/oath-to-order.mp3"}
     ];
 
 
