@@ -153,7 +153,7 @@ $(document).ready(function () {
 
         // Elegy of Emptiness
         // → ← → ↓ → ↑ ←
-        {name: "Elegy of Emptiness", seq: [39, 37, 39, 40, 39, 38, 37], song: "assets/audio/elegy-of-emptiness"},
+        {name: "Elegy of Emptiness", seq: [39, 37, 39, 40, 39, 38, 37], song: "assets/audio/elegy-of-emptiness.mp3"},
 
         // Oath to Order
         // → ↓ A ↓ → ↑
