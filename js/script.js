@@ -137,7 +137,15 @@ $(document).ready(function () {
 
         // Sonata of Awakening
         // ↑ ← ↑ ← A → A
-        {name: "Sonata of Awakening", seq: [38, 37, 38, 37, 65, 39, 65], song: "assets/audio/sonata-of-awakening.mp3"}
+        {name: "Sonata of Awakening", seq: [38, 37, 38, 37, 65, 39, 65], song: "assets/audio/sonata-of-awakening.mp3"},
+
+        // Song of Soaring
+        // ↓ ← ↑ ↓ ← ↑
+        {name: "Song of Soaring", seq: [40, 37, 38, 40, 37, 38], song: "assets/audio/song-of-soaring.mp3"},
+
+        // Goron Lullaby
+        // A → ← A → ← → A
+        {name: "Goron Lullaby", seq: [65, 39, 37, 65, 39, 37, 39, 65], song: "assets/audio/goron-lullaby.mp3"}
     ];
 
 
