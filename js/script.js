@@ -121,7 +121,11 @@ $(document).ready(function () {
 
         // Prelude of Light -----------------------------------------
         // ↑ → ↑ → ← ↑
-        {name: "Prelude of Light", seq: [38, 39, 38, 39, 37, 38], song: "assets/audio/prelude-of-light.mp3"}
+        {name: "Prelude of Light", seq: [38, 39, 38, 39, 37, 38], song: "assets/audio/prelude-of-light.mp3"},
+
+        // Song of Healing
+        // ← → ↓ ← → ↓
+        {name: "Song of Healing", seq: [37, 39, 40, 37, 39, 40], song: "assets/audio/song-of-healing.mp3"}
     ];
 
 
