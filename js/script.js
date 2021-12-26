@@ -97,7 +97,7 @@ $(document).ready(function () {
 
         // Song of Time ---------------------------------------------
         // → A ↓ → A ↓
-        {name: "Sun's Song", seq: [39, 65, 40, 39, 65, 40], song: "assets/audio/song-of-time.mp3"},
+        {name: "Song of Time", seq: [39, 65, 40, 39, 65, 40], song: "assets/audio/song-of-time.mp3"},
 
         // Minuet of Forest -----------------------------------------
         // A ↑ ← → ← →
