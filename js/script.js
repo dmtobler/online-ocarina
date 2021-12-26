@@ -123,39 +123,39 @@ $(document).ready(function () {
         // ↑ → ↑ → ← ↑
         {name: "Prelude of Light", seq: [38, 39, 38, 39, 37, 38], song: "assets/audio/prelude-of-light.mp3"},
 
-        // Song of Healing
+        // Song of Healing ------------------------------------------
         // ← → ↓ ← → ↓
         {name: "Song of Healing", seq: [37, 39, 40, 37, 39, 40], song: "assets/audio/song-of-healing.mp3"},
 
-        // Inverted Song of Time
+        // Inverted Song of Time ------------------------------------
         // ↓ A → ↓ A →
         {name: "Inverted Song of Time", seq: [40, 65, 39, 40, 65, 39], song: "assets/audio/inverted-song-of-time.mp3"},
 
-        // Song of Double Time
+        // Song of Double Time --------------------------------------
         // → → A A ↓ ↓
         {name: "Song of Double Time", seq: [39, 39, 65, 65, 40, 40], song: "assets/audio/song-of-double-time.mp3"},
 
-        // Sonata of Awakening
+        // Sonata of Awakening --------------------------------------
         // ↑ ← ↑ ← A → A
         {name: "Sonata of Awakening", seq: [38, 37, 38, 37, 65, 39, 65], song: "assets/audio/sonata-of-awakening.mp3"},
 
-        // Song of Soaring
+        // Song of Soaring ------------------------------------------
         // ↓ ← ↑ ↓ ← ↑
         {name: "Song of Soaring", seq: [40, 37, 38, 40, 37, 38], song: "assets/audio/song-of-soaring.mp3"},
 
-        // Goron Lullaby
+        // Goron Lullaby --------------------------------------------
         // A → ← A → ← → A
         {name: "Goron Lullaby", seq: [65, 39, 37, 65, 39, 37, 39, 65], song: "assets/audio/goron-lullaby.mp3"},
 
-        // New Wave Bossa Nova
+        // New Wave Bossa Nova --------------------------------------
         // ← ↑ ← → ↓ ← → 
         {name: "New Wave Bossa Nova", seq: [37, 38, 37, 39, 40, 37, 39], song: "assets/audio/new-wave-bossa-nova.mp3"},
 
-        // Elegy of Emptiness
+        // Elegy of Emptiness ---------------------------------------
         // → ← → ↓ → ↑ ←
         {name: "Elegy of Emptiness", seq: [39, 37, 39, 40, 39, 38, 37], song: "assets/audio/elegy-of-emptiness.mp3"},
 
-        // Oath to Order
+        // Oath to Order --------------------------------------------
         // → ↓ A ↓ → ↑
         {name: "Oath to Order", seq: [39, 40, 65, 40, 39, 38], song: "assets/audio/oath-to-order.mp3"}
     ];
