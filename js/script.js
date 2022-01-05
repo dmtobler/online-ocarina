@@ -31,36 +31,36 @@ $(document).ready(function () {
     document.addEventListener('keydown', function(e) {
 
         switch (e.keyCode) {
-            case 39:
+            case 89:
                 var rightNote = createAudio("assets/audio/notes/OOT_Notes_Ocarina_A_med.wav");
                 rightNote.play();
-                $("#keyIconContainer").html("<i class='fa fa-arrow-right'></i>");
+                $("#keyIconContainer").html("Y");
                 break;
 
-            case 37:
+            case 88:
                 var leftNote = createAudio("assets/audio/notes/OOT_Notes_Ocarina_B_med.wav");
                 leftNote.play();
-                $("#keyIconContainer").html("<i class='fa fa-arrow-left'></i>");
-                break;
-
-            case 38:
-                var upNote = createAudio("assets/audio/notes/OOT_Notes_Ocarina_D2_med.wav");
-                upNote.play();
-                $("#keyIconContainer").html("<i class='fa fa-arrow-up'></i>");
-
+                $("#keyIconContainer").html("X");
                 break;
 
             case 65:
-                var aNote = createAudio("assets/audio/notes/OOT_Notes_Ocarina_D_med.wav");
-                aNote.play();
+                var upNote = createAudio("assets/audio/notes/OOT_Notes_Ocarina_D2_med.wav");
+                upNote.play();
                 $("#keyIconContainer").html("A");
 
                 break;
 
-            case 40:
+            case 76:
+                var aNote = createAudio("assets/audio/notes/OOT_Notes_Ocarina_D_med.wav");
+                aNote.play();
+                $("#keyIconContainer").html("L");
+
+                break;
+
+            case 82:
                 var downNote = createAudio("assets/audio/notes/OOT_Notes_Ocarina_F_med.wav");
                 downNote.play();
-                $("#keyIconContainer").html("<i class='fa fa-arrow-down'></i>");
+                $("#keyIconContainer").html("R");
                 break;
 
         }
@@ -76,28 +76,28 @@ $(document).ready(function () {
         {name: "Konami... <br>wrong game!", seq: [38, 38, 40, 40, 37, 39, 37, 39, 66, 65, 13]},
 
         // Zelda's Lullaby -----------------------------------------
-        // ← ↑ → ← ↑ →
-        {name: "Zelda's Lullaby", seq: [37, 38, 39, 37, 38, 39], song: "assets/audio/zeldas-lullaby.mp3"},
+        // X A Y X A Y
+        {name: "Zelda's Lullaby", seq: [88, 65, 89, 88, 65, 89], song: "assets/audio/zeldas-lullaby.mp3"},
 
         // Epona's Song ---------------------------------------------
-        // ↑ ← → ↑ ← →
-        {name: "Epona's Song", seq: [38, 37, 39, 38, 37, 39], song: "assets/audio/eponas-song.mp3"},
+        // A X Y A X Y
+        {name: "Epona's Song", seq: [65, 88, 89, 65, 88, 89], song: "assets/audio/eponas-song.mp3"},
 
         // Saria's Song ---------------------------------------------
-        // ↓ → ← ↓ → ←
-        {name: "Saria's Song", seq: [40, 39, 37, 40, 39, 37], song: "assets/audio/sarias-song.mp3"},
+        // R Y X R Y X
+        {name: "Saria's Song", seq: [82, 89, 88, 82, 89, 88], song: "assets/audio/sarias-song.mp3"},
 
         // Song of Storms -------------------------------------------
-        // A ↓ ↑ A ↓ ↑
-        {name: "Song of Storms", seq: [65, 40, 38, 65, 40, 38], song: "assets/audio/song-of-storms.mp3"},
+        // L R A L R A
+        {name: "Song of Storms", seq: [76, 82, 65, 76, 82, 65], song: "assets/audio/song-of-storms.mp3"},
 
         // Sun's Song -----------------------------------------------
-        // → ↓ ↑ → ↓ ↑
-        {name: "Sun's Song", seq: [39, 40, 38, 39, 40, 38], song: "assets/audio/suns-song.mp3"},
+        // Y R A Y R A
+        {name: "Sun's Song", seq: [89, 82, 65, 89, 82, 65], song: "assets/audio/suns-song.mp3"},
 
         // Song of Time ---------------------------------------------
-        // → A ↓ → A ↓
-        {name: "Song of Time", seq: [39, 65, 40, 39, 65, 40], song: "assets/audio/song-of-time.mp3"},
+        // Y L R Y L R
+        {name: "Song of Time", seq: [89, 76, 82, 89, 76, 82], song: "assets/audio/song-of-time.mp3"},
 
         // Minuet of Forest -----------------------------------------
         // A ↑ ← → ← →
