@@ -100,28 +100,28 @@ $(document).ready(function () {
         {name: "Song of Time", seq: [89, 76, 82, 89, 76, 82], song: "assets/audio/song-of-time.mp3"},
 
         // Minuet of Forest -----------------------------------------
-        // A ↑ ← → ← →
-        {name: "Minuet of Forest", seq: [65, 38, 37, 39, 37, 39], song: "assets/audio/minuet-of-forest.mp3"},
+        // L A X Y X Y
+        {name: "Minuet of Forest", seq: [76, 65, 88, 89, 88, 89], song: "assets/audio/minuet-of-forest.mp3"},
 
         // Bolero of Fire -------------------------------------------
-        // ↓ A ↓ A → ↓ → ↓
-        {name: "Bolero of Fire", seq: [40, 65, 40, 65, 39, 40, 39, 40], song: "assets/audio/bolero-of-fire.mp3"},
+        // R L R L Y R Y R
+        {name: "Bolero of Fire", seq: [82, 76, 82, 76, 89, 82, 89, 82], song: "assets/audio/bolero-of-fire.mp3"},
 
         // Serenade of Water ----------------------------------------
-        // A ↓ → → ←
-        {name: "Serenade of Water", seq: [65, 40, 39, 39, 37], song: "assets/audio/serenade-of-water.mp3"},
+        // L R Y Y X
+        {name: "Serenade of Water", seq: [76, 82, 89, 89, 88], song: "assets/audio/serenade-of-water.mp3"},
 
         // Requiem of Spirit ----------------------------------------
-        // A ↓ A → ↓ A
-        {name: "Requiem of Spirit", seq: [65, 40, 65, 39, 40, 65], song: "assets/audio/requiem-of-spirit.mp3"},
+        // L R L Y R L
+        {name: "Requiem of Spirit", seq: [76, 82, 76, 89, 82, 76], song: "assets/audio/requiem-of-spirit.mp3"},
 
         // Nocturne of Shadow ---------------------------------------
-        // ← → → A ← → ↓
-        {name: "Nocturne of Shadow", seq: [37, 39, 39, 65, 37, 39, 40], song: "assets/audio/nocturne-of-shadow.mp3"},
+        // X Y Y L X Y R
+        {name: "Nocturne of Shadow", seq: [88, 89, 89, 76, 88, 89, 82], song: "assets/audio/nocturne-of-shadow.mp3"},
 
         // Prelude of Light -----------------------------------------
-        // ↑ → ↑ → ← ↑
-        {name: "Prelude of Light", seq: [38, 39, 38, 39, 37, 38], song: "assets/audio/prelude-of-light.mp3"},
+        // A Y A Y X A
+        {name: "Prelude of Light", seq: [65, 89, 65, 89, 88, 65], song: "assets/audio/prelude-of-light.mp3"},
 
         // Song of Healing ------------------------------------------
         // ← → ↓ ← → ↓
