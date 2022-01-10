@@ -53,7 +53,7 @@ $(document).ready(function () {
             case 83:
                 var aNote = createAudio("assets/audio/notes/OOT_Notes_Ocarina_D_med.wav");
                 aNote.play();
-                $("#keyIconContainer").html("A");
+                $("#keyIconContainer").html("S(A for N64)");
 
                 break;
 
