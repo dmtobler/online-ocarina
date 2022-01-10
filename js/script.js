@@ -31,6 +31,37 @@ $(document).ready(function () {
     document.addEventListener('keydown', function(e) {
 
         switch (e.keyCode) {
+            case 39:
+                var rightNote = createAudio("assets/audio/notes/OOT_Notes_Ocarina_A_med.wav");
+                rightNote.play();
+                $("#keyIconContainer").html("<i class='fa fa-arrow-right'></i>");
+                break;
+
+            case 37:
+                var leftNote = createAudio("assets/audio/notes/OOT_Notes_Ocarina_B_med.wav");
+                leftNote.play();
+                $("#keyIconContainer").html("<i class='fa fa-arrow-left'></i>");
+                break;
+
+            case 38:
+                var upNote = createAudio("assets/audio/notes/OOT_Notes_Ocarina_D2_med.wav");
+                upNote.play();
+                $("#keyIconContainer").html("<i class='fa fa-arrow-up'></i>");
+
+                break;
+
+            case 83:
+                var aNote = createAudio("assets/audio/notes/OOT_Notes_Ocarina_D_med.wav");
+                aNote.play();
+                $("#keyIconContainer").html("A");
+
+                break;
+
+            case 40:
+                var downNote = createAudio("assets/audio/notes/OOT_Notes_Ocarina_F_med.wav");
+                downNote.play();
+                $("#keyIconContainer").html("<i class='fa fa-arrow-down'></i>");
+                break;
             case 89:
                 var rightNote = createAudio("assets/audio/notes/OOT_Notes_Ocarina_A_med.wav");
                 rightNote.play();
