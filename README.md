@@ -1,4 +1,4 @@
-# online-ocarina-3D
+# online-ocarina
 Playable online ocarina - do you know all the songs in The Legend of Zelda: Ocarina of Time and Majora's Mask?
 
 ## Updates
