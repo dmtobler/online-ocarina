@@ -4,4 +4,4 @@ Use the S key as the A button when using N64 notation.<br>
 Use the normal A key when using 3DS notation.
 ## Updates
 
-- **[12/25/2021]**: Updated by [@imsad2](https://github.com/imsad2) to include songs from Majora's Mask and favicon
+- **[12/25/2021]**: Updated by [@niltok64](https://github.com/niltok64) to include songs from Majora's Mask and favicon
